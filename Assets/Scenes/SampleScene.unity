@@ -222,8 +222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ebbccf1bd92a544be8c21923c62616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Driver
-  moveSpeed: 0.02
-  steerSpeed: 0.7
+  moveSpeed: 8
+  steerSpeed: 180
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
