@@ -12,6 +12,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Picked up Package!");
             hasPackage = true;
+            GetComponent<ParticleSystem>().Play();
             Destroy(collision.gameObject, delayPickup);
         }
 
@@ -19,6 +20,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Delivered Package!");
             hasPackage = false;
+            GetComponent<ParticleSystem>().Stop();
         }
     }
 
